@@ -1,4 +1,4 @@
-#Tetris Game
+# Tetris Game
     @Seed Zeng
     @We==I; our=my in this document
     Basic Tetris game developed for 131, where you will be able to have fun with tetris
@@ -10,7 +10,7 @@
     5.  Scoring
     
  --------------------------------
-##Implementation
+## Implementation
   
 Use Java Swing to achive the animation
  * Jframe for baisc layout
@@ -22,7 +22,7 @@ Use Java Swing to achive the animation
 
 ===================  
 
-##List of classes/Interfaces
+## List of classes/Interfaces
 
 Below is a list of classes. 
 For each class, a breif descritpion about the classe/interface and a short discussion the importance of it to the game design will be presented.
@@ -42,7 +42,7 @@ In my Design, [BoardViewController](./BoardViewController.java)(discussed Later)
 -----------------------
 
 
-###[ShapeModel](./ShapeModel.java)
+### [ShapeModel](./ShapeModel.java)
         Click the name to see comments about individual method
 
 ShapeModel is the class that specifies the shape of a piece 
@@ -60,7 +60,7 @@ Notice that in java, enum is a full class unlike C++, so we have to have an extr
 
 -------------------
 
-###[ScroePanelViewController](./ScorePanelViewController.java)
+### [ScroePanelViewController](./ScorePanelViewController.java)
         Click the name to see comments about individual method
 
 ScorePanel extends Jpanel and is responsible for displaying the status of the game including
@@ -79,7 +79,7 @@ This companent will simply display the msg updated by the boardViewcontroller th
 
 ---------------------
 
-###[BoardViewController](./BoardViewController.java)
+### [BoardViewController](./BoardViewController.java)
         Click the name to see comments about individual method
 
 BoardViewController extends Jpanel holds all the logic regarding the game itself. 
@@ -125,7 +125,7 @@ We update the status when necssary by invoking the update method of TetrisContro
 ------------
 
 
-###[TetrisAdapter](./TetrisAdapter.java)
+### [TetrisAdapter](./TetrisAdapter.java)
         Click the name to see comments about individual method
 
 
@@ -136,7 +136,7 @@ This class is a keyAdapter(Convinence class for keyListner). KeyBinding is proba
 
 ---------------------
 
-###[TetrisController](./TetrisController.java)
+### [TetrisController](./TetrisController.java)
         Click the name to see comments about individual method
 
  
@@ -151,7 +151,7 @@ We fire up the TetrisController in the main method and setRelative to null since
 
 =============
 
-##Possible Improvements
+## Possible Improvements
 
   * MVC? MVC! MVC!!! to get a more expandable design
   * Implement level (more quicker when level up) => this can actaully be achived really easily, just feeling lazy right now
