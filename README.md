@@ -1,7 +1,6 @@
 # Tetris Game
     @Seed Zeng
-    @We==I; our=my in this document
-    Basic Tetris game developed for 131, where you will be able to have fun with tetris
+    Basic Tetris game  where you will be able to have fun with tetris
     functionality done:
     1.  Descending 
     2.  Rotation
@@ -150,12 +149,3 @@ We set board at center and scorepanel at west. The update method is utilzied by 
 We fire up the TetrisController in the main method and setRelative to null since it's the only frame and then make it visiable
 
 =============
-
-## Possible Improvements
-
-  * MVC? MVC! MVC!!! to get a more expandable design
-  * Implement level (more quicker when level up) => this can actaully be achived really easily, just feeling lazy right now
-    Simply, check the score and chagne the Timer(newDelay,this);
-
-  * Much better Graphics
-  * Two-Player mode?
