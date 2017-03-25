@@ -148,4 +148,4 @@ We set board at center and scorepanel at west. The update method is utilzied by 
 
 We fire up the TetrisController in the main method and setRelative to null since it's the only frame and then make it visiable
 
-=============
+
