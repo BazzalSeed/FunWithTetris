@@ -27,7 +27,7 @@ Below is a list of classes.
 For each class, a breif descritpion about the classe/interface and a short discussion the importance of it to the game design will be presented.
         Click on the name of the class to explore code detail and inline comments about individual methods in the class/interface
 
-###[Anim(interface)](./Anim.java)
+### [Anim(interface)](./Anim.java)
         Click the name to see comments about individual method
 
 Anim interface extends actionLinstner interface, where requriring the implementation of actionPerformed method.
